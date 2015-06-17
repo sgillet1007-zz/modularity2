@@ -1,0 +1,44 @@
+/* ADD YOUR STYLES HERE */
+* {
+	box-sizing:border-box;
+}
+
+
+.center-inline {
+	text-align:center;
+}
+
+.top-allign {
+	display: table-cell;
+	vertical-align:top;
+	/*line-height:160px;*/
+}
+
+div.center-inline > * {
+	padding-right: 40px;
+
+}
+
+div.center-horizontal > * {
+	padding-right: 20px;
+}
+
+.test-border {
+	border: 1px dashed red;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+
+.center-horizontal {
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+
+}
+
+.float-left {
+	float:left;
+}
