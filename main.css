@@ -126,3 +126,30 @@ nav li:hover {
 	background: green;
 }
 
+.pagination-text {
+	color:#ec828a;
+	text-decoration:none;
+	padding:10px;
+}
+
+.pagination-number {
+	color:#ec828a;
+	text-decoration:none;
+	padding:10px;
+
+}
+
+.pagination-underline {
+	border-bottom: 2px solid #ec828a;
+}
+a.pagination-number:hover {
+	color:grey;
+}
+
+span.pagination-number:hover {
+	color:grey;
+}
+
+li.pagination-underline:hover {
+	border-bottom-color: grey;
+}
