@@ -183,4 +183,52 @@ li.pagination-underline:hover {
 }
 
 
+/**************Tabs*******************/
+.test-border2 {
+	border-radius:5px;
+	border:1px solid grey;
+	position:relative;
+	top:-1px;
+}
+
+.tab-nonselect {
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	border:1px solid grey;
+}
+
+.tab-select {
+	/*position:absolute;*/
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	border:1px solid grey;
+	border-bottom: 1px solid white;
+	background:white;
+}
+
+.padding10 {
+	padding:10px;
+}
+
+.tab-text {
+	font-size:0.9em;
+	font-weight: bold;
+	color:blue;
+}
+
+.text-decoration-remove {
+	text-decoration:none;
+}
+
+.tabs-on-top {
+	z-index:1
+}
+
+.position-relative {
+	position:relative;
+}
+
+
+
+
 
