@@ -58,8 +58,8 @@ div.center-horizontal > * {
 	padding: 10px 55px;
 	background: rgba(255,0,0,0.5);
 	/*border: 1px dashed red;*/
-	float:left;
-	height:100%;
+	/*float:left;*/
+	vertical-align: middle;
 }
 
 .large-button {
@@ -90,5 +90,39 @@ div.center-horizontal > * {
 	background: #ec828a;
 	/*border: 1px dashed red;*/
 	float:left;
-
 }
+.nav-button-left {
+	border-radius:0px;
+	text-decoration:none;
+	color:white;
+	padding: 10px 20px;
+	background: #ec828a;
+	/*border: 1px dashed red;*/
+	float:left;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav-button-right {
+	border-radius:0px;
+	text-decoration:none;
+	color:white;
+	padding: 10px 20px;
+	background: #ec828a;
+	/*border: 1px dashed red;*/
+	float:left;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.line-height70 {
+	line-height: 70px;
+}
+
+.remove-border {
+	border:none;
+}
+
+nav li:hover {
+	background: green;
+}
+
